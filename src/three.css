@@ -1,0 +1,13 @@
+.object {
+    position: absolute;
+}
+
+.loading {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background: url(./gif/musicmode1.gif);
+    background-size: cover;
+    height: 10vh;
+    width: 10vh;
+}

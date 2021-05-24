@@ -1,0 +1,267 @@
+@font-face {
+  font-family: KyivTypeSans;
+  src: url(../font/KyivTypeSans-Bold.woff);
+}
+
+body, html { 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+/* NATURE */
+
+.mcategory-nature {
+  background: url(../svg/nature.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  height: 8vh;
+  width: 20vh;
+  opacity: 0.4;
+  margin-top: -.5vh;
+}
+
+.mcategory-nature:hover, .mcategory-nature:focus, .mcategory-nature:active {
+  background: url(../svg/nature-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-nature-active {
+  background: url(../svg/nature-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-nature-active:hover {
+  background: url(../svg/nature.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* INDUSTRIAL */
+
+.mcategory-industrial {
+  background: url(../svg/industrial.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  height: 8vh;
+  width: 28vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-industrial:hover, .mcategory-industrial:focus, .mcategory-industrial:active {
+  background: url(../svg/industrial-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-industrial-active {
+  background: url(../svg/industrial-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-industrial-active:hover {
+  background: url(../svg/industrial.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* WATERSIDE */
+
+.mcategory-waterside {
+  background: url(../svg/waterside.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  /* cursor: pointer; */
+	margin-right: 2vh;
+  height: 8vh;
+  width: 30vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-waterside:hover, .mcategory-waterside:focus, .mcategory-waterside:active {
+  background: url(../svg/waterside-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-waterside-active {
+  background: url(../svg/waterside-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-waterside-active:hover {
+  background: url(../svg/waterside.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* STREET */
+
+.mcategory-street {
+  background: url(../svg/street.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  /* cursor: pointer; */
+	margin-right: 2vh;
+  height: 8vh;
+  width: 19vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-street:hover, .mcategory-street:focus, .mcategory-street:active {
+  background: url(../svg/street-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-street-active {
+  background: url(../svg/street-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.mcategory-street-active:hover {
+  background: url(../svg/street.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* CATEGORIES WRAP */
+
+.mcats {
+  display: inline-block;
+	text-align: left;
+	height: 100%;
+  width:100%;
+	padding-left: 2vh;
+  position: relative;
+}
+
+/* MAP & HIGHLIGHT TITLE & MUSIC BUTTON */
+
+/* .map {
+  height: 100%;
+  vertical-align: top;
+  opacity: 0.25;
+  height: 1vh;
+}
+
+.highlight {
+	height: 100%;
+  vertical-align: top;
+  opacity: 0.25;
+  height: 1vh;
+  padding-left: 2%;
+  margin-top: -2.5vh;
+} */
+
+.mmusicbutton {
+  float:right;
+  vertical-align: top;
+  /* cursor: pointer; */
+  background: url(../gif/musicmode1.gif);
+  background-size: cover;
+  margin-right: 3vh;
+  margin-top: -20vh;
+  height: 10vh;
+  width: 10vh;
+  opacity: 0.4;
+}
+
+.mmusicbutton:hover, .mmusicbutton:focus, .mmusicbutton:active {
+  background: url(../gif/musicmode-active1.gif);
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.mmusicbutton-active {
+  background: url(../gif/musicmode-active1.gif);
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.mmusicbutton-active:hover {
+  background: url(../gif/musicmode1.gif);
+  background-size: cover;
+  opacity: 1.0;
+}
+
+/* CIRCLE */
+
+.mcircle {
+  display: inline-block;
+  vertical-align: middle;
+  /* cursor: pointer; */
+  color: #fff;
+	width: 1.8vh;
+	height: 1.8vh;
+	margin-right: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 50%;
+  border-width: 0.8vh;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.mcircle:hover, .mcircle:focus, .mcircle:active {
+  background-color: #fff;
+}
+
+.mcircle-unknown {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.mcircle-active {
+  background-color: rgba(255, 255, 255, 1);;
+}
+
+.mcircle-discovered {
+  background-color: rgba(255, 255, 255, 0.4);;
+}
+
+.mcircle-highlighted {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.mcircle-empty {
+  border-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+/* NAVIGATION WRAP */
+
+.mnavigation {
+	text-align: left;
+	height: 100%;
+	padding: 28vh 2vh;
+  position: absolute;
+}
+
+/* SECONDARY BUTTONS */
+
+/*  vymazal som to, najdes v navigation.css */
+
+p {
+  color: white;
+  font-family: KyivTypeSans;
+  font-size: 2.4vh;
+  margin-bottom: 0;
+}
+
+.mdescription {
+  opacity: 35%;
+}
+
+.dmescription:hover {
+  opacity: 40%;
+}
